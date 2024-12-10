@@ -11,7 +11,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/heroku-app-chintan/index.html'));
 });
 
-const PORT = process.env.PORT || 3087;
+const PORT = process.env.PORT || 8090;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 }); 
