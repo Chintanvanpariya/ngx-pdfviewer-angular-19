@@ -7,18 +7,8 @@
       <p>Congratulations! Your app is running. 🎉</p>
     </div>
     
-
     <div style="width: 1000px;height: 800px;">
-      
-        <ngx-extended-pdf-viewer 
-          [base64Src]="base64Str"
-          [useInlineScripts]="false"
-          pageViewMode="single"
-          [height]="'auto'"
-          [filenameForDownload]="'Public.pdf'"
-          
-        >
-      </ngx-extended-pdf-viewer>
+        <ngx-extended-pdf-viewer [base64Src]="base64Str"></ngx-extended-pdf-viewer>
     </div>
   </div>
    
