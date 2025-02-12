@@ -7,9 +7,9 @@
       <p>Congratulations! Your app is running. 🎉</p>
     </div>
     
-    <div style="width: 1000px;height: 800px;">
-        <ngx-extended-pdf-viewer [base64Src]="base64Str"></ngx-extended-pdf-viewer>
-    </div>
+    <button class="btn btn-outline-primary mb-2 me-2" (click)="openScrollableContent()">
+      Modal pdf content
+    </button>
   </div>
    
 </main>
