@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { MyModalComponent } from './my-modal/my-modal.component';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
-
+import { MyModalComponent } from './my-modal/my-modal.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,NgxExtendedPdfViewerModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  standalone: false,
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   

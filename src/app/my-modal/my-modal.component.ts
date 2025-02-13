@@ -1,11 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { NgxExtendedPdfViewerModule} from 'ngx-extended-pdf-viewer';
 
 @Component({
   selector: 'app-my-modal',
-  imports: [NgxExtendedPdfViewerModule],
   templateUrl: './my-modal.component.html',
-  styleUrl: './my-modal.component.scss'
+  styleUrls: ['./my-modal.component.css']
 })
 export class MyModalComponent implements OnInit{
 
